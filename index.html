@@ -1,190 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/zero.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Beauty</title>
 </head>
-<body>
-    
-    <header class="header">
-    <div class="header__top"> 
-        <div class="container">
-            <div class="header__top-inner">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            Доставка
-                        </li>
-                        <li class="menu__item">
-                            Оплата
-                        <li class="menu__item">
-                            <a href="#">Отзывы</a>
-                        </li>
-                        <li class="menu__item">
-                            Вопрос - ответ
-                        </li>
-                        <li class="menu__item">
-                            Контакты</li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
 
-    <div class="header__center">
-        <div class="container">
-            <div class="header__center-inner">
-               <img class="header__img" src="img/logo.png">
-               <div class="connect">
-                <p class="phone number">8 (812) 123-45-67</p>
-                <button class="header__button">Обратный звонок</button>
+<body>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li>
+                                <a class="menu__item" href="#">Доставка</a>
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#">Оплата</a>
+                            <li>
+                                <a class="menu__item" href="#">Отзывы</a>
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#">Вопрос - ответ</a>
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
+
+        <div class="header__center">
+            <div class="container">
+                <div class="header__center-inner">
+                    <img class="header__img" src="img/logo.png">
+                    <div class="connect">
+                        <a class="phone-number" href="tel:8 (812) 123-45-67">8 (812) 123-45-67</a>
+                        <button type="button" class="header__button">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="header__bottom">
-        <div class="container">
-            <div class="header__bottom-inner">
-                <nav class="menu__bottom">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#">Парикмахерская</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">Барбершоп</a>
-                        <li class="menu__item">
-                            <a href="#">Маникюр</a>
-                            <!-- ПОчему ссылка только тут?  -->
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">Педикюр</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#"> Массаж</a></li>
-                        <li class="menu__item">
-                            <a href="#">Мебель</a>
-                        </li>
-                    </ul>
-                </nav>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom-inner">
+                    <nav class="menu__bottom">
+                        <ul class="menu__list header-bottom__menu">
+                            <li class="menu__item">
+                                <a href="#">Парикмахерская</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Барбершоп</a>
+                            <li class="menu__item">
+                                <a href="#">Маникюр</a>
+                                <!-- классы с лишек перенести в ашки  -->
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Педикюр</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#"> Массаж</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Мебель</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
     </header>
     <main class="main">
-        <section class="chair">
-        <div class="container">
-            <div class="chair__inner">
-                <div class="super">
-                    <h1 class="super__title">Супер кресло</h1>
-                    <p class="super__subtitle">Текст акции всегда отражает суть, а не просто
-                        болтовню, поэтому внимательнее</p>
-                        <button class="super__button">Подробнее</button>
-                </div>
-                <img class="main__img" src="img/main.chair.png">
-            </div>
-        </div>
-    </section>
-    <section class="shop">
-        <div class="container">
-            <div class="shop__inner">
-                <h3 class="shop__title">Специальные предложения</h3>
-                <div class="box__group-one">
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
+        <section class="preview">
+            <div class="container">
+                <div class="preview__inner">
+                    <div class="preview__content">
+                        <h1 class="preview__title">Супер кресло</h1>
+                        <p class="preview__text">Текст акции всегда отражает суть, а не просто
+                            болтовню, поэтому внимательнее</p>
+                        <button class="preview__button">Подробнее</button>
                     </div>
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
-                </div>
-                <div class="box__group-two">
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
-                    <div class="shop__item">
-                        <img src="img/shop_chair.png" class="shop__item-img">
-                        <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
-                        <h3 class="shop__item-price">9400 грн</h3>
-                        <button class="header__button">Купить</button>
-                    </div>
+                    <img class="main__img" src="img/main.chair.png">
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="popular">
-        <div class="container">
-            <div class="popular__inner">
-                <h3>Популярные придложения</h3>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#"> Насадкy</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#"> Инструменты</a>
-                        <li class="menu__item">
-                            <a href="#"> Дизайн</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#"> Наращивание</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#">Оборудовани</a></li>
-                    </ul>
-                </nav>
-                   </div>
+        </section>
+        <section class="shop">
+            <div class="container">
+                <div class="shop__inner">
+                    <h3 class="shop__title">Специальные предложения</h3>
+                    <div class="box__group-one">
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                    </div>
+                    <div class="box__group-two">
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                        <div class="shop__item">
+                            <img src="img/shop_chair.png" class="shop__item-img">
+                            <p class="shop__item-title">Парикмахерское кресло «Норм» гидравлическое</p>
+                            <h3 class="shop__item-price">9400 грн</h3>
+                            <button class="header__button">Купить</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-</main>
-    
+        </section>
+        <section class="popular">
+            <div class="container">
+                <div class="popular__inner">
+                    <h3>Популярные придложения</h3>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#"> Насадкy</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#"> Инструменты</a>
+                            <li class="menu__item">
+                                <a href="#"> Дизайн</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#"> Наращивание</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Оборудовани</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="header__center">
-        <div class="container">
-            <div class="header__center-inner">
-               <img class="header__img" src="img/youtube.png">
-               <div class="connect">
-                <p class="phone number">8 (812) 123-45-67</p>
-                <button class="header__button">Обратный звонок</button>
+            <div class="container">
+                <div class="header__center-inner">
+                    <img class="header__img" src="img/youtube.png">
+                    <div class="connect">
+                        <p class="phone number">8 (812) 123-45-67</p>
+                        <button class="header__button">Обратный звонок</button>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
         <div class="container">
             <div class="footer__inner">
                 <a class="policy">Политка конфидинцальности</a>
@@ -192,4 +198,5 @@
         </div>
     </footer>
 </body>
+
 </html>
